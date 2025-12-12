@@ -34,7 +34,7 @@ function nowInEurope() {
 function unlockDateForDoor(day) {
   const year = new Date().getFullYear();
   const month = 11; 
-  const date = 12 + day; 
+  const date = 11 + day; 
   const nowEu = nowInEurope();
   const d = new Date(nowEu);
   d.setFullYear(year);
