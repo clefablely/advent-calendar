@@ -1,4 +1,4 @@
-const TEST_MODE = false;  
+const TEST_MODE = true;  
 
 const eu_tz = "Europe/Berlin";
 
