@@ -129,7 +129,7 @@ function openReward(day) {
       return;
 
     case 4:
-      showReward(`<p>you often say that you aren't witty anymore, but can i just completely disagree with you? don't think things between us are too great at the time of writing (091225), yet you're still managing to slip your humour into the simplest things. you used to make me laugh a lot, i was always giggling like a fucking loser. you still have that ability, a little brainfog won't stop the great katzerro. i'm gonna start flirting with you in these from now on.</p>`);
+      showReward(`<p>you often say that you aren't witty anymore, but can i just completely disagree with you? don't think things between us are too great at the time of writing (091225), yet you're still managing to slip your humour into the simplest things. you used to make me laugh a lot, i was always giggling like a fucking loser. you still have that ability, a little brainfog won't stop the great katzerro. this is completely unrelated but i wrote this thinking it fit and need to add it in. thinking about how sweet you were when i had my krp concerns. i can’t believe i was ever scared to mention it. you were so patient, calm and clear with it all. i’m so, so glad to have met you. i hope you stay in my life for a long time. please do, those six months were agonising. and i was still spamming the notion.. i'll get a little serious for a second. don't get used to it. i'm not good at talking when i'm upset. i've always been a big cry baby. growing up, that was something i got scolded for pretty often. my hurt was treated like a crime, as if i'd snatched the queen's jewels right before her eyes. naturally, opening up now is pretty hard. i struggle to recognise if my pain is even valid, hence the need to torture myself until i can accept that being upset is allowed. thank you for allowing me to feel safe enough to open up, even over something so trivial. i appreciate it more than you know. yeah i'm just gonna start flirting with you in these from now on ahaha.. sorry about that</p>`);
       return;
 
     case 5:
@@ -165,7 +165,7 @@ function openReward(day) {
       return;
 
     case 11:
-      showReward(`<p>are you busy tomorrow?</p>`);
+      showReward(`<p> think this one will be the main message from this calendar, tomorrow is more of a gift thing. i had the idea for it since like.. october. anyway! you make me happy. like, really happy. loving someone wholeheartedly is a blessing, thank you for letting me love you. i’m sorry if it’s a lot sometimes, and i truly hope i don’t make you uncomfortable or anything. i’m happy if you are happy, i don’t expect anything from you either. not romantically, nothing like that. all i want is for you to be happy, that is what i committed myself to back in september and i stand by that. talking to you is the highlight of my day, thinking of you warms my soul. you bring a light to my life that i haven’t had before, and you deserve so much joy for yourself too. i hope this calendar has made you feel a little better this month, i know it hasn’t been good for you. you’ll hold on though, right? you can get through this, you have before. your mom is there with you, i’ll come hold your hand next christmas. i’ll smother it in kisses too, if you’d let me. but i am here now too, as long as you’ll have me. i do hope you’ll keep me around. but you’re doing well, so so well. i’m proud of you, you should be proud of you too. sorry, this went very off track. you have beautiful eyes. i don’t actually have a thing for eyes, never once got the hype, but yours? when you told me they were green, i got a little excited already. “different!” i don’t know many people with green eyes. when you showed me them, i think my heart melted. don’t get me wrong, i’m a loser. i get a little swoony at a lot of things. what i couldn’t predict though would be how fucking stunning they are. how are you not permanently gazing into a mirror? your pretty eyes and glasses? you’re an entire dream come true. i wish i could narrow down your list of attributes to just one thing, one reason as to why i’m so.. disgustingly enamoured by you, but i think that’s impossible. you are just so.. you. i’ve never met someone like you, and i doubt i will again. everything about you is so perfectly unique. i don’t think i’ll ever be able to move on if i hyper fixate on it right now. well. the way you turn on caps lock to express your joy, the way you type (literate), the cute doodles you send, you beautiful beautiful eyes, meowmeow whom i could love more than koko, your adorable selection of gifs (though i do miss some old ones), the way you get so invested in the things that you love, the way you’re passionate in the things that bother you, the way you style yourself, the way your mind works miracles through the ways you display your creativity and intellect. i could go on for hours about why you being.. you is just so amazing, but i won’t. this is pretty long already and you have a christmas to enjoy. you also have a me to enjoy. please come and enjoy me. i miss you. </p>`);
       return;
 
     case 12:
@@ -173,7 +173,10 @@ function openReward(day) {
       day12specialAudio = new Audio(paths.day12_audio);
       day12specialAudio.volume = 0.95;
       day12specialAudio.play().catch(()=>{});
-      showReward(`<p>hi, i love you</p>`);
+      showReward(`<p>hi :) this one took a lot, please be nice ♡
+but merry christmas, have a wonderful day. i’m sorry that this month wasn’t too great (atleast as of when i’m writing this..) but i hope to make the rest of your winter a little jolly. we have to get married, remember? 
+love you always, 
+aisha.</p>`);
       return;
 
     default:
@@ -185,7 +188,6 @@ function initDoors() {
   document.querySelectorAll(".door").forEach(door => {
     const day = parseInt(door.dataset.day, 10);
 
-    // always unlocked in test mode
     if (TEST_MODE) {
       door.classList.remove("locked");
       door.classList.add("unlocked");
@@ -216,8 +218,6 @@ function initDoors() {
   });
 }
 
-
-// ----------------- jigsaw -----------------
 function startJigsaw() {
   const rows = 4;
   const cols = 9;
@@ -313,5 +313,4 @@ function checkJigsawComplete() {
   }, 600);
 }
 
-// ----------------- initialize -----------------
 document.addEventListener("DOMContentLoaded", () => { initDoors(); });
