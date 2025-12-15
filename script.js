@@ -133,23 +133,27 @@ function openReward(day) {
       return;
 
     case 5:
-      showReward(`<p>summer 2025, great dismay,
-a season painted with blue,
-struggles piling on with days,
-my own silence grew.
-but in september, i had won;
-the stars must have aligned just right.
-what could i have possibly done
-to receive that invite? 
-two words, my chest lifted:
-“is this real?” my mind whispered,
-with a vow to make things longstanding,
-a message was sent, 
-chats brought mutual understanding,
-at last, returned a sense of content.
-
-fate didn’t bring me back to you;
-just two small words and the smile that grew.</p>`);
+      showReward(`<p>
+  summer 2025, great dismay,<br>
+  a season painted with blue,<br>
+  struggles piling on with days,<br>
+  my own silence grew.<br>
+  <br>
+  but in september, i had won;<br>
+  the stars must have aligned just right.<br>
+  what could i have possibly done<br>
+  to receive that invite?<br>
+  <br>
+  two words, my chest lifted:<br>
+  “is this real?” my mind whispered,<br>
+  with a vow to make things longstanding,<br>
+  a message was sent,<br>
+  chats brought mutual understanding,<br>
+  at last, returned a sense of content.<br>
+  <br>
+  fate didn’t bring me back to you;<br>
+  just two small words and the smile that grew.
+</p>`);
       return;
 
     case 6:
