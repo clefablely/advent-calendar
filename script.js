@@ -136,12 +136,12 @@ function openReward(day) {
       showReward(`<p>
   summer 2025, great dismay,<br>
   a season painted with blue,<br>
-  struggles piling on with days,<br>
-  my own silence grew.<br>
+  more struggles piling on by the day,<br>
+  with that, my own silence grew.<br>
   <br>
   but in september, i had won;<br>
   the stars must have aligned just right.<br>
-  what could i have possibly done<br>
+  because what could i have possibly done<br>
   to receive that invite?<br>
   <br>
   two words, my chest lifted:<br>
