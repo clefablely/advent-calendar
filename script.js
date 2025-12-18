@@ -157,7 +157,7 @@ function openReward(day) {
       return;
 
     case 6:
-      showReward(`<p>for you:</p><img src="${paths.day6_image}" alt="day 6 image" />`);
+      showReward(`<p>for you (i'm so sorry, this was VERY rushed. very ass too actually. i had a rough week. hope you can get a gist of the idea. hopefully next time i won't flop terribly when trying to draw for you..):</p><img src="${paths.day6_image}" alt="day 6 image" />`);
       return;
 
     case 7:
