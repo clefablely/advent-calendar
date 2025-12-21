@@ -10,7 +10,7 @@ const paths = {
   day6_image: "gifts/day6.jpeg",
   day8_image: "gifts/eyes.jpeg",
   day12_audio: "gifts/njoc_cover.mp3",
-  day10_link: "https://notion.so"
+  day10_link: "https://www.notion.so/whisperink/Monet-s-Water-Lilies-2c4623af2a1380d9a7d5ffa0209a0af7?pvs=4"
 };
 
 const bgMusic = new Audio(paths.christmas_music);
