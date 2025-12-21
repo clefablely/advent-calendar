@@ -181,7 +181,7 @@ function openReward(day) {
       return;
 
     case 10:
-      showReward(`<p>my birthday! yay! remember that Monet calendar i showed you? enjoy this! please use it at least a little, i worked hard on it. <3</p><p><a href="${paths.day10_link}" target="_blank" rel="noopener">${paths.day10_link}</a></p>`);
+      showReward(`<p>my birthday! yay! remember that Monet calendar i showed you? enjoy this! this one is actually personalised to YOU! also, i think i made it editable but you should also be able to duplicate it if you don't want me stalking anything you may add :) <3</p><p><a href="${paths.day10_link}" target="_blank" rel="noopener">${paths.day10_link}</a></p>`);
       return;
 
     case 11:
